@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header div {
+    width: 40vw;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+figure {
+    margin: 2em;
+
+}
+
+
+.produtos_1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+
+.logo {
+    width: 10vw;
+    height: 4vh;
+    display: flex;
+    position: relative;
+    left: 80px;
+}
+
+.icones {
+    width: 20vw;
+    height: 4vh;
+    display: flex;
+    position: relative;
+    right: 80px;
+    justify-content: space-evenly;
+}
+
+.oferta {
+    width: 100%;
+
+}
+
+.principal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(165, 161, 161, 1);
+
+}
+
+
+
+h3 {
+
+    width: 5vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 4px;
+    color: greenyellow;
+
+}
+
+.novidades {
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape1 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    flex-wrap: wrap;
+}
+
+
+
+.rodape2 {
+    width: 95vw;
+    display: flex;
+    justify-content: space-between;
+align-items:center ;
+}
+
+.pagamento {
+    
+    display: flex;
+    width: 300px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.linha1 {
+    width: 8vw;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+}
+
+button {
+
+    font-size: 20px;
+    color: white;
+    width: 15vw;
+    height: 10vh;
+    background-color: rgba(92, 167, 32, 1);
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+    border-color: transparent;
+}
+
+label {
+
+    font-weight: 600;
+    color: rgba(168, 164, 164, 1);
+    height: 10px;
+    width: 80vw;
+}
+
+
+
+.redes {
+    font-size: 20px;
+    display: flex;
+    width: 10vw;
+    justify-content: space-evenly;
+    align-items:center ;
+
+}
+
+.Suporte {
+    width: 350px;
+    font-size: 24px;
+    font-weight: 600;
+    display: block;
+    color: black;
+    text-decoration: none;
+
+}
+
+input {
+    width: 352px;
+    height: 54px;
+    font-size: 20px;
+    border-color: transparent;
+    text-align: center;
+
+}
+
+div input {
+    border: 0.5px solid rgba(217, 217, 217, 1);
+}
+
+.news {
+
+    font-size: 26px;
+}
+
+
+@media(max-width: 500px) {
+
+    header {
+        width: 100vw;
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .logo {
+        width: 22vw;
+        position: relative;
+        left: 10px;
+
+    }
+
+    .icones {
+        width: 30vw;
+        position: relative;
+        right: 20px;
+
+    }
+
+    .oferta {
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .mobile {
+        position: relative;
+        right: 120px;
+        width: 620px;
+        height: 30vh;
+    }
+
+
+    button {
+        width: 100%;
+
+    }
+
+.rodape2{
+    width: 100%;
+justify-content: space-around;
+}
+
+
+.redes{
+    position: relative;
+    left: 2em;
+align-items: center;
+}
+
+.pagamento{
+   justify-content:space-evenly ;
+align-items: center;
+}
+
+
+}
